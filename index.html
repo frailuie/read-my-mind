@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="/icons8-thought-bubble-16.png"
+      type="image/x-icon"
+    />
+
+    <!-- my fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>read my mind 🧐 | frailuie</title>
+  </head>
+  <body>
+    <div class="gameName">
+      read my mind
+      <img
+        src="/icons8-thinking.gif"
+        alt="gears spinning in brain"
+        class="icon"
+      />
+    </div>
+    <hr />
+
+    <div class="gameMechanics">
+      <button class="hint">💡</button>
+      <div class="topicBox">
+        <div class="scrollingTopics">
+          <ul>
+            <li style="color: #eb5353">Dragon Ball Z Characters</li>
+            <li style="color: #187498">Famous Spanish Painters</li>
+            <li style="color: #36ae7c">70's Glam Rock</li>
+            <li style="color: #f9d923">NCAAM Basketball Cinderellas</li>
+            <li style="color: #36ae7c">The 12 Gods of Mount Olympus</li>
+            <li style="color: #187498">Lost Cities</li>
+            <li style="color: #eb5353">Female GOATs in Sports</li>
+            <li style="color: #f9d923">Tropical Fruit</li>
+            <li style="color: #36ae7c">Carnivorous Plants</li>
+            <li style="color: #187498">National Parks in California</li>
+            <li style="color: #eb5353">Female American Poets</li>
+            <li style="color: #f9d923">African American Jazz Musicians</li>
+            <li style="color: #36ae7c">#1 Hit Songs (Rap)</li>
+            <li style="color: #187498">2x Oscar Winners (Under 30)</li>
+            <li style="color: #eb5353">NFL Wide Receivers (Top 25)</li>
+            <li style="color: #f9d923">Musical Duos</li>
+            <li style="color: #36ae7c">Aquatic Mammals</li>
+            <li style="color: #187498">Australian Hit Makers</li>
+          </ul>
+        </div>
+      </div>
+      <button class="dice">🎲</button>
+    </div>
+    <!-- arrow for div box -->
+    <div class="arrow-up"></div>
+    <div class="infoBox">
+      <div
+        class="displayHint hidden"
+        aria-placeholder="hint is displayed here"
+      ></div>
+
+      <div class="guessBox">
+        <input type="text" name="guessfield" id="guess" autocomplete="off" />
+        <button class="checkGuess">☑️</button>
+        <div class="displayGuess"></div>
+      </div>
+    </div>
+
+    <div class="scorecard">
+      <div class="scoreBox">
+        <button class="playAgain">🔃</button>
+        ⏳ guesses <span class="guessesLeft">6</span>
+      </div>
+      <div class="displayGuesses">
+        <ul>
+          <li id="guess0">1️⃣</li>
+          <li id="guess1">2️⃣</li>
+          <li id="guess2">3️⃣</li>
+          <li id="guess3">4️⃣</li>
+          <li id="guess4">5️⃣</li>
+          <li id="guess5">6️⃣</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
